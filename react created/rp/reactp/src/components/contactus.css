@@ -1,0 +1,81 @@
+.contact-us{
+    background-color: white;
+    max-width: 6000px;
+    padding-bottom: 1px;
+  }
+  .container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .contact-info{
+    text-align: center;
+    justify-content: center;
+  }
+  .contact-info h3{
+    color:orange;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family:cursive;
+  }
+  .contact-info h2{
+    font-size:22px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+  }
+  .infoC{
+    display:flex;
+    flex-direction: row;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-info p{
+    font-size: 12px;
+    margin: 5px;
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .contact-info .email{
+    display: inline-block;
+    margin: 20px;
+    color: black;
+    font-size: 8px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-sectionC{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    background-color: white;
+  }
+  .form-sectionC img{
+    width: 35%;
+    border-radius: 1px;
+  }
+  .contact-form{
+    width: 48%;
+    margin-bottom: 10px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  .send-btn{
+    padding: 0.5rem 1rem;
+    background-color:rgb(212, 144, 18);
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 1rem;
+    font-size: 10px;
+  }
+  

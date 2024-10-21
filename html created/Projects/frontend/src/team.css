@@ -1,0 +1,95 @@
+.team-info{
+background-color:rgba(255, 255, 255, 0.881);
+max-width: 6000px;
+}
+.team-member{
+/*margin:  20px;*/
+/*margin-top: 3px;*/
+text-align: center;
+position: relative;
+}
+.team-member h2{
+    color: orange;
+    font-size: 16px;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.team-member h1{
+    color: black;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.team-grid{
+    /*display: grid;
+    grid-template-columns: repeat(3, 1fr);*/
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.profile-pic{
+  text-align: center;
+  padding: 20px;
+}
+.profile-pic img{
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 1rem;
+    width: 130px;
+    border-radius: 50%;
+    margin-top: 20px;
+    object-fit: cover;
+}
+.info{
+    padding: 20px;
+}
+.info h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.info p{
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.social-icons{
+    display: none;
+    justify-content: center;
+    margin-top: 10px;
+}
+.profile-pic:hover .social-icons{
+    display: flex;
+    gap: 10px;  
+}
+.social-icons i{
+    font-size: 20px;
+    color: orange;
+    pointer-events: none;
+}
+@media (max-width:768px){
+    .team-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        justify-items: center;
+        margin-top: 20px;
+    }
+    .profile-pic{
+      text-align: center;
+      padding: 20px;
+    }
+    .profile-pic img{
+        align-items: center;
+        justify-content:center;
+        margin-bottom: 1rem;
+        width: 90px;
+        border-radius: 50%;
+        margin-top: 20px;
+        object-fit: cover;
+    }
+    
+}

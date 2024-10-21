@@ -1,0 +1,121 @@
+.about-us{
+    padding: 50px;
+    max-width: 6000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color:rgba(255, 255, 255, 0.881);
+     
+}
+.about-images{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: -40px;
+}
+.image-row{
+    display: flex;
+    gap: 10px;
+}
+.image-row img{
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.about-content{
+    max-width: 50%;
+}
+
+.about-content h3{
+    color: orange;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+.about-content h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-content h1 span{
+    font-size: 36px;
+    color: orange;
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.about-info{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.info-box h2{
+    font-size: 48px;
+    color: orange;
+    margin: 0;
+    border-left: 5px solid orange;
+
+}
+.info-box p{
+    font-size: 14px;
+    color: black;
+}
+.info-box p span{
+    font-weight: bold;
+}
+.btn-read{
+  padding: 0.5rem 1rem;
+  background-color:rgb(212, 144, 18);
+  color:white;
+  font-weight: bold;
+  pointer-events: none;
+}
+.im1{
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.im2{
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.im3{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 70px;
+}
+.im4{
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 70px;
+}
+@media (max-width: 768px) {
+    .about-us{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .about-images{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        margin-left: 30px;
+       
+    }
+    /*.image-row {
+        flex-direction: column;
+    }*/
+    .image-row img{
+        width: 30%;
+    }
+    
+}

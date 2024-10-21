@@ -1,0 +1,208 @@
+/*.Reservetion-form{
+    background-color:rgba(255, 255, 255, 0.881);
+    max-width: 6000px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    width: 200%;
+    justify-items: center;
+} 
+.form-wrapper{
+    background-color: #192A4A;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 0.3px;
+    padding-left: 1%;
+    padding-right: 1%;
+    align-items:center;
+    justify-content:space-between;
+    margin-left: 1400px;
+}
+.form-wrapper h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.form-wrapper h1{
+    font-size: 40px;
+}
+.form{
+    width: 100%;
+    max-width: 1000px;
+}
+.form-group{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.form-group input, 
+.form-group textarea
+{
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    flex: 1;
+}
+.form-group button{
+    width: 100%;
+    padding: 15px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.image-rese{
+    width:50%;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    max-width: 1000px;
+}
+.image-rese img{
+    width: 70%;
+    margin-top: 5px;
+    margin-left: 1698px;
+}
+@media(max-width: 768px)
+{
+ .container{
+        display: flex;
+        flex-direction: column;
+  }
+ .image-rese{
+    width: 85%;
+ }
+ .image-rese img{
+    width: 420px;
+    margin-top: 0px;
+    margin-left: -300px;
+ }
+ .form-wrapper{
+    width: 50%;
+    margin-left: 1px;
+    padding-top: 40px;
+    padding-bottom: 0.3px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+ }
+}*/
+.Reservetion-form{
+    background-color:rgba(255, 255, 255, 0.881);
+    max-width: 6000px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+.form-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*margin-bottom: 60px;*/
+    background-color: #192A4A;
+  }
+  .form-section img{
+    width: 45%;
+    border-radius: 1px;
+  }
+  .form-wrapper{
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .form-wrapper h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: orange;
+}
+.form-wrapper h1{
+    font-size: 50px;
+    color: white;
+}
+  .form-wrapper input,
+  .form-wrapper textarea {
+    
+    width: 70%;
+    padding:15px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+  }
+  button{
+    width: 70%;
+    padding: 25px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.reservationForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width:768px){
+    .form-section{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /*align-items: center;*/
+        /*margin-bottom: 60px;*/
+        background-color: #192A4A;
+      }
+    .form-section img{
+        width: 45%;
+        border-radius: 1px;
+      }
+      .form-wrapper{
+        width: 100%;
+        margin-bottom: 10px;
+        align-items: center;
+      }
+      .form-wrapper h2{
+        font-size: 10px;
+        margin-bottom: 20px;
+        color: orange;
+    }
+    .form-wrapper h1{
+        font-size: 40px;
+        color: white;
+    }
+    .form-wrapper input,
+  .form-wrapper textarea {
+    
+    width: 70%;
+    padding:5px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+  }
+  button{
+    width: 70%;
+    padding: 15px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+}
